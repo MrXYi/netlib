@@ -1,5 +1,17 @@
 # 网络库
-
+> 引用本库：
+>
+> 
+```
+（1）在工程的build.gradle中添加maven { url 'https://jitpack.io' }
+    allprojects {
+        repositories {
+            maven { url 'https://jitpack.io' }
+        }
+    }
+（2）在module中引用本项目
+    implementation 'com.github.MrXYi:netlib:v1.0'
+```
 ## 用法
 （1）初始化
 ```
