@@ -12,7 +12,7 @@ import okhttp3.OkHttpClient;
 
 /**
  * 全局app
- * Created by WZG on 2016/12/12.
+ * Created by xiaoyi on 2019/11/25.
  */
 
 public class RxRetrofitApp {
