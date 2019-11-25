@@ -1,4 +1,4 @@
-package com.onecm.net.http.cookie;
+package com.xiao.net.http.cookie;
 
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Generated;

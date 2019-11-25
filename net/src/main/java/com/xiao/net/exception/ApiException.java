@@ -1,4 +1,4 @@
-package com.onecm.net.exception;
+package com.xiao.net.exception;
 
 /**
  * 回调统一请求异常

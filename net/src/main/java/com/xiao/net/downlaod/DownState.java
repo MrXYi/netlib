@@ -1,4 +1,4 @@
-package com.onecm.net.downlaod;
+package com.xiao.net.downlaod;
 
 /**
  * 下载状态

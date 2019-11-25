@@ -1,8 +1,8 @@
-package com.onecm.net.http.func;
+package com.xiao.net.http.func;
 
 import android.util.Log;
 
-import com.onecm.net.exception.FactoryException;
+import com.xiao.net.exception.FactoryException;
 
 import rx.Observable;
 import rx.functions.Func1;

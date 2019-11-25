@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.onecm.net.http;
+package com.xiao.net.http;
 
 import java.lang.ref.Reference;
 import java.net.Socket;
@@ -31,7 +31,6 @@ import java.util.concurrent.TimeUnit;
 import javax.annotation.Nullable;
 
 import okhttp3.Address;
-import okhttp3.ConnectionPool;
 import okhttp3.Route;
 import okhttp3.internal.Util;
 import okhttp3.internal.connection.RealConnection;

@@ -1,6 +1,6 @@
-package com.onecm.net.downlaod;
+package com.xiao.net.downlaod;
 
-import com.onecm.net.listener.HttpDownOnNextListener;
+import com.xiao.net.listener.HttpDownOnNextListener;
 
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Generated;

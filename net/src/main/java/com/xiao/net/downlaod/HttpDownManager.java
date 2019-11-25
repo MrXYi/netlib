@@ -1,12 +1,12 @@
-package com.onecm.net.downlaod;
+package com.xiao.net.downlaod;
 
 import android.util.Log;
 
-import com.onecm.net.downlaod.DownLoadListener.DownloadInterceptor;
-import com.onecm.net.exception.HttpTimeException;
-import com.onecm.net.exception.RetryWhenNetworkException;
-import com.onecm.net.subscribers.ProgressDownSubscriber;
-import com.onecm.net.utils.DbDwonUtil;
+import com.xiao.net.downlaod.DownLoadListener.DownloadInterceptor;
+import com.xiao.net.exception.HttpTimeException;
+import com.xiao.net.exception.RetryWhenNetworkException;
+import com.xiao.net.subscribers.ProgressDownSubscriber;
+import com.xiao.net.utils.DbDwonUtil;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,7 +28,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
-import static com.onecm.net.utils.AppUtil.getBasUrl;
+import static com.xiao.net.utils.AppUtil.getBasUrl;
 
 
 /**

@@ -1,6 +1,6 @@
-package com.onecm.net.http.func;
+package com.xiao.net.http.func;
 
-import com.onecm.net.exception.HttpTimeException;
+import com.xiao.net.exception.HttpTimeException;
 
 import rx.functions.Func1;
 

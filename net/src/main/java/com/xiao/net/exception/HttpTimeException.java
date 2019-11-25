@@ -1,4 +1,4 @@
-package com.onecm.net.exception;
+package com.xiao.net.exception;
 
 /**
  * 运行时自定义错误信息

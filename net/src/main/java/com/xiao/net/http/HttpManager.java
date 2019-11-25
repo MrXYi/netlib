@@ -1,16 +1,16 @@
-package com.onecm.net.http;
+package com.xiao.net.http;
 
 import android.util.Log;
 
-import com.onecm.net.Api.BaseApi;
-import com.onecm.net.FileRequestBodyConverterFactory;
-import com.onecm.net.RxRetrofitApp;
-import com.onecm.net.exception.RetryWhenNetworkException;
-import com.onecm.net.http.func.ExceptionFunc;
-import com.onecm.net.http.func.ResulteFunc;
-import com.onecm.net.listener.HttpOnNextListener;
-import com.onecm.net.listener.HttpOnNextSubListener;
-import com.onecm.net.subscribers.NetSubscriber;
+import com.xiao.net.Api.BaseApi;
+import com.xiao.net.FileRequestBodyConverterFactory;
+import com.xiao.net.RxRetrofitApp;
+import com.xiao.net.exception.RetryWhenNetworkException;
+import com.xiao.net.http.func.ExceptionFunc;
+import com.xiao.net.http.func.ResulteFunc;
+import com.xiao.net.listener.HttpOnNextListener;
+import com.xiao.net.listener.HttpOnNextSubListener;
+import com.xiao.net.subscribers.NetSubscriber;
 
 import java.lang.ref.SoftReference;
 
@@ -19,7 +19,6 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 import rx.Observable;
-import rx.Scheduler;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 

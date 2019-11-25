@@ -1,7 +1,7 @@
-package com.onecm.net.http.cookie;
+package com.xiao.net.http.cookie;
 
-import com.onecm.net.RxRetrofitApp;
-import com.onecm.net.utils.AppUtil;
+import com.xiao.net.RxRetrofitApp;
+import com.xiao.net.utils.AppUtil;
 
 import java.io.IOException;
 
