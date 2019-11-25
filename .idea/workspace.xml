@@ -1,11 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="test_resulte" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>appcompat-v7</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.retrofit2</group-id>
+        <name>adapter-rxjava</name>
+        <version>2.6.2</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.retrofit2</group-id>
+        <name>converter-scalars</name>
+        <version>2.6.2</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.okhttp3</group-id>
+        <name>okhttp</name>
+        <version>4.2.2</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.retrofit2</group-id>
+        <name>retrofit</name>
+        <version>2.6.2</version>
+        <repository>JCenter</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1574652346771</last-search-timestamp>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6c0dd49b-eba3-447e-94a3-042871480f02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/Flag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/HttpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/NetApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/NetApiStackManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/xiao/netlib/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/xiao/netlib/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/Api/BaseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/Api/BaseApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/Api/HttpManagerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/Api/HttpManagerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/FileRequestBodyConverterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/FileRequestBodyConverterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/RxRetrofitApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/RxRetrofitApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/downlaod/DownInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/downlaod/DownInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/downlaod/DownLoadListener/DownloadInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/downlaod/DownLoadListener/DownloadInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/downlaod/DownLoadListener/DownloadProgressListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/downlaod/DownLoadListener/DownloadProgressListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/downlaod/DownLoadListener/DownloadResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/downlaod/DownLoadListener/DownloadResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/downlaod/DownState.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/downlaod/DownState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/downlaod/HttpDownManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/downlaod/HttpDownManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/downlaod/HttpDownService.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/downlaod/HttpDownService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/exception/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/exception/ApiException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/exception/CodeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/exception/CodeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/exception/FactoryException.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/exception/FactoryException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/exception/HttpTimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/exception/HttpTimeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/exception/RetryWhenNetworkException.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/exception/RetryWhenNetworkException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/http/HttpManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/http/HttpManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/http/OnecmConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/http/OnecmConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/http/TokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/http/TokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/http/cookie/CacheInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/http/cookie/CacheInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/http/cookie/CookieResulte.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/http/cookie/CookieResulte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/http/func/ExceptionFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/http/func/ExceptionFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/http/func/ResulteFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/http/func/ResulteFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/listener/HttpDownOnNextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/listener/HttpDownOnNextListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/listener/HttpOnNextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/listener/HttpOnNextListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/listener/HttpOnNextSubListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/listener/HttpOnNextSubListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/listener/upload/ProgressRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/listener/upload/ProgressRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/listener/upload/UploadProgressListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/listener/upload/UploadProgressListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/subscribers/NetSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/subscribers/NetSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/subscribers/ProgressDownSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/subscribers/ProgressDownSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/utils/AppUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/utils/AppUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/utils/CookieDbUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/utils/CookieDbUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/onecm/net/utils/DbDwonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/xiao/net/utils/DbDwonUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,58 +101,29 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netlib" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#onCreate#0;class#MainActivity#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/net/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,12 +132,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/HttpPostService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/NetApiStackManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/NetApi.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/HttpService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/Flag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/App.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1059" />
+    <option name="x" value="1411" />
+    <option name="width" value="516" />
     <option name="height" value="1167" />
   </component>
   <component name="ProjectView">
@@ -89,7 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -155,21 +222,21 @@
               <item name="xiao" type="462c0819:PsiDirectoryNode" />
               <item name="netlib" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="netlib" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netlib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="E:/sdk" />
     <property name="device.picker.selection" value="A02AACPNNEASL" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../onecm/onecm_smarthome_v2" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -309,60 +376,63 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.32995737" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32629558" />
-      <window_info anchor="bottom" id="Android Profiler" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Flutter Inspector" />
-      <window_info anchor="right" id="Flutter Outline" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22441365" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Find" weight="0.32917467" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" visible="true" weight="0.32629558" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3320426" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.3234165" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Flutter Outline" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Preview" order="7" weight="0.32995737" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/net/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/READ" />
+    <entry file="file://$PROJECT_DIR$/net/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/net/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -371,10 +441,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/NetApiStackManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#199#207#0" expanded="true" />
+            <element signature="method#NetApiStackManager#0;class#NetApiStackManager#0" expanded="true" />
+            <element signature="method#getInstance#0;class#NetApiStackManager#0" expanded="true" />
+            <element signature="method#addNetApi#0;class#NetApiStackManager#0" expanded="true" />
+            <element signature="method#removeNetApi#0;class#NetApiStackManager#0" expanded="true" />
+            <element signature="method#removeAllNetApis#0;class#NetApiStackManager#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/src/main/java/com/xiao/net/Api/BaseApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#1741#1742#0" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#1903#2128#0" expanded="true" />
+            <element signature="e#2173#2174#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+            <element signature="e#2218#2431#0" expanded="true" />
+            <element signature="e#2533#2534#0" expanded="true" />
+            <element signature="e#2567#2568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/src/main/java/com/xiao/net/http/HttpManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#HttpManager#0;class#HttpManager#0" expanded="true" />
+            <element signature="method#HttpManager#1;class#HttpManager#0" expanded="true" />
+            <element signature="method#doHttpDeal#0;class#HttpManager#0" expanded="true" />
+            <element signature="method#httpDeal#0;class#HttpManager#0" expanded="true" />
+            <element signature="method#httpDealThread#0;class#HttpManager#0" expanded="true" />
+            <element signature="e#5146#5147#0" expanded="true" />
+            <element signature="e#5183#5184#0" expanded="true" />
+            <element signature="method#getHttpLoggingInterceptor#0;class#HttpManager#0" expanded="true" />
+            <element signature="e#5512#5712#0" expanded="true" />
+            <element signature="e#5711#5712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/Flag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/src/main/java/com/xiao/net/RxRetrofitApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="method#init#0;class#RxRetrofitApp#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/src/main/java/com/xiao/net/Api/HttpManagerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/NetApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#NetApi#0;class#NetApi#0" expanded="true" />
+            <element signature="method#getWeather#0;class#NetApi#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/HttpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="676">
+            <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xiao/netlib/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onCreate#0;class#MainActivity#0" expanded="true" />
+            <element signature="method#onNext#0;class#MainActivity#0" expanded="true" />
+            <element signature="method#onError#0;class#MainActivity#0" expanded="true" />
+            <element signature="method#getWeather#0;class#MainActivity#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

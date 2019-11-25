@@ -1,11 +1,11 @@
-package com.onecm.net.subscribers;
+package com.xiao.net.subscribers;
 
-import com.onecm.net.downlaod.DownInfo;
-import com.onecm.net.downlaod.DownLoadListener.DownloadProgressListener;
-import com.onecm.net.downlaod.DownState;
-import com.onecm.net.downlaod.HttpDownManager;
-import com.onecm.net.listener.HttpDownOnNextListener;
-import com.onecm.net.utils.DbDwonUtil;
+import com.xiao.net.downlaod.DownInfo;
+import com.xiao.net.downlaod.DownLoadListener.DownloadProgressListener;
+import com.xiao.net.downlaod.DownState;
+import com.xiao.net.downlaod.HttpDownManager;
+import com.xiao.net.listener.HttpDownOnNextListener;
+import com.xiao.net.utils.DbDwonUtil;
 
 import java.lang.ref.SoftReference;
 

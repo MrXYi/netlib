@@ -1,4 +1,4 @@
-package com.onecm.net.utils;
+package com.xiao.net.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

@@ -1,6 +1,4 @@
-package com.onecm.net.Api;
-
-import android.util.Log;
+package com.xiao.net.Api;
 
 import retrofit2.Retrofit;
 import rx.Observable;

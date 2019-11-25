@@ -1,9 +1,9 @@
-package com.onecm.net;
+package com.xiao.net;
 
 import android.app.Application;
 import android.content.Context;
 
-import com.onecm.net.http.TokenInterceptor;
+import com.xiao.net.http.TokenInterceptor;
 
 import java.util.concurrent.TimeUnit;
 

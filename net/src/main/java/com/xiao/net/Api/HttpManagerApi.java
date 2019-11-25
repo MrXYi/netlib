@@ -1,8 +1,8 @@
-package com.onecm.net.Api;
+package com.xiao.net.Api;
 
-import com.onecm.net.http.HttpManager;
-import com.onecm.net.listener.HttpOnNextListener;
-import com.onecm.net.listener.HttpOnNextSubListener;
+import com.xiao.net.http.HttpManager;
+import com.xiao.net.listener.HttpOnNextListener;
+import com.xiao.net.listener.HttpOnNextSubListener;
 
 import retrofit2.Retrofit;
 import rx.Observable;

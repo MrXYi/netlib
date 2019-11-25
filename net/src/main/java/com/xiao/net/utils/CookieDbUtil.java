@@ -1,13 +1,13 @@
-package com.onecm.net.utils;
+package com.xiao.net.utils;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.onecm.net.RxRetrofitApp;
-import com.onecm.net.downlaod.DaoMaster;
-import com.onecm.net.downlaod.DaoSession;
-import com.onecm.net.http.cookie.CookieResulte;
-import com.onecm.net.http.cookie.CookieResulteDao;
+import com.xiao.net.RxRetrofitApp;
+import com.xiao.net.downlaod.DaoMaster;
+import com.xiao.net.downlaod.DaoSession;
+import com.xiao.net.http.cookie.CookieResulte;
+import com.xiao.net.http.cookie.CookieResulteDao;
 
 import org.greenrobot.greendao.query.QueryBuilder;
 
