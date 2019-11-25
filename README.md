@@ -10,7 +10,7 @@
         }
     }
 （2）在module中引用本项目
-    implementation 'com.github.MrXYi:netlib:v1.0'
+    implementation 'com.github.MrXYi:netlib:v1.1'
 ```
 ## 用法
 （1）初始化
